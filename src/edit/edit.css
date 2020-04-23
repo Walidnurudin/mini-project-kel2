@@ -1,0 +1,152 @@
+.cont-edit {
+	margin: 20px auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+	border-radius: 5px;
+	padding: 20px;
+	width: 90%;
+	max-width: 400px;
+	height: 700px;
+	box-shadow: 0 0 10px #3949ab;
+}
+
+.head-edit {
+	text-align: center;
+}
+
+.logo-edit {
+	width: 50px;
+	display: inline-block;
+}
+
+#nama {
+	margin-left: 30px;
+	width: 90%;
+}
+
+#telephone {
+	margin-left: 30px;
+	width: 90%;
+}
+
+#email {
+	margin-left: 30px;
+	width: 90%;
+}
+
+#confirmPassword {
+	margin-left: 30px;
+	width: 90%;
+}
+
+.icons-edit-camera {
+	color: gray;
+	cursor: pointer;
+}
+
+.icons-edit-camera:hover {
+	color: black;
+}
+
+.icons-edit-delete {
+	color: gray;
+	cursor: pointer;
+}
+
+.icons-edit-delete:hover {
+	color: black;
+}
+
+.icons-edit-nama {
+	position: relative;
+	top: 45px;
+	right: 38px;
+}
+
+.icons-edit-telephone {
+	position: relative;
+	top: 45px;
+	right: 60px;
+}
+
+.icons-edit-email {
+	position: relative;
+	top: 45px;
+	right: 38px;
+}
+
+.icons-edit-password {
+	position: relative;
+	top: 45px;
+	right: 55px;
+}
+
+.icons-edit-confirmPassword {
+	position: relative;
+	top: 45px;
+	right: 96px;
+}
+
+.icons-edit-passwordshow {
+	position: absolute;
+	right: 8%;
+	bottom: 41%;
+	cursor: pointer;
+}
+
+.icons-edit-confirmshow {
+	position: absolute;
+	right: 8%;
+	bottom: 28%;
+	cursor: pointer;
+}
+
+.btn-done {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background: #3949ab;
+	margin-top: 25px;
+}
+
+.btn-done:hover {
+	background: #2196f3;
+	color: black;
+}
+
+.btn-cancel {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background: #3949ab;
+}
+
+.btn-cancel:hover {
+	background: #2196f3;
+	color: black;
+}
+
+.btn-delete {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background: #920000;
+}
+
+.btn-delete:hover {
+	background: #f30b0b;
+	color: white;
+}
+
+.loading-edit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}

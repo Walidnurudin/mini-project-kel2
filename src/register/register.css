@@ -1,0 +1,128 @@
+.cont-register {
+	margin: 30px auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 400px;
+	width: 90%;
+	height: 670px;
+	box-shadow: 0 0 10px #3949ab;
+}
+
+.logo-register {
+	height: 50px;
+}
+
+.teks-logo-apk {
+	position: absolute;
+	right: 40px;
+	top: -13px;
+	font-size: 25px;
+}
+
+.teks-logo-register {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	font-size: 20px; 
+}
+
+
+.form-field {
+	height: 88px;
+}
+
+.form-register {
+	position: relative;
+}
+
+/* INPUT */
+
+#nama {
+	margin-left: 30px;
+	width: 85%;
+}
+
+#telephone {
+	margin-left: 30px;
+	width: 85%;
+}
+
+#Password {
+	margin-left: 30px;
+	width: 90%;
+}
+
+#confirmPassword {
+	margin-left: 30px;
+	width: 85%;
+}
+
+.teks-login {
+	margin-top: 0;
+	padding: 10px;
+}
+
+/* ICONS */
+
+.icons-register-nama {
+	position: relative;
+	top: 45px;
+	right: 38px;
+}
+
+.icons-register-email {
+	position: relative;
+	top: 45px;
+	right: 38px;
+}
+
+.icons-register-telephone {
+	position: relative;
+	top: 45px;
+	right: 63px;
+}
+
+.icons-register-password {
+	position: relative;
+	top: 45px;
+	right: 56px;
+}
+
+.icons-register-password2 {
+	position: relative;
+	top: 45px;
+	right: 98px;
+}
+
+.icons-register-show {
+	position: absolute;
+	bottom: 36%;
+	left: 94%;
+	cursor: pointer;
+}
+
+.icons-register-show2 {
+	position: absolute;
+	bottom: 18%;
+	left: 94%;
+	cursor: pointer;
+}
+
+/* BUTTON */
+
+.btn-register {
+	width: 100%;
+	padding: 10px;
+	margin-top: 25px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background: #3949ab;
+}
+
+.btn-register:hover {
+	background: #2196f3;
+	color: black;
+}

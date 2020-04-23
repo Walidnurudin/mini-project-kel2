@@ -1,0 +1,90 @@
+.cont-login {
+	margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+	border-radius: 5px;
+	padding: 20px;
+	width: 90%;
+	max-width: 400px;
+	height: 400px;
+	box-shadow: 0 0 10px #3949ab;
+}
+
+.form-login {
+	display: block;
+}
+
+.form-field {
+	height: 88px;
+}
+
+.logo-login {
+	height: 50px;
+}
+
+.teks-logo-apk {
+	position: absolute;
+	right: 40px;
+	top: -13px;
+	font-size: 25px;
+}
+
+.teks-logo-login {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	font-size: 20px; 
+}
+
+.teks-register {
+	margin-top: 0;
+	padding: 10px;
+	display: block;
+}
+
+#email {
+	margin-left: 30px;
+	width: 85%;
+}
+
+.icons-login-email {
+	position: relative;
+	top: 45px;
+	right: 38px;
+}
+
+#password {
+	margin-left: 30px;
+	width: 90%;
+}
+
+.icons-login-password {
+	position: relative;
+	top: 45px;
+	right: 58px;
+}
+
+.icons-login-show {
+	position: relative;
+	bottom: 41%;
+	left: 94%;
+	cursor: pointer;
+}
+
+.btn-login {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	background: #3949ab;
+	margin-top: 25px;
+}
+
+.btn-login:hover {
+	background: #2196f3;
+	color: black;
+}
+
+
+

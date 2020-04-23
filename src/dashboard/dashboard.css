@@ -1,0 +1,209 @@
+.cont-dashboard {
+	width: 95%;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	box-shadow: 0 0 10px #3949ab;
+	border-radius: 10px;
+	font-family: 'Source Sans Pro', arial;
+} 
+
+.sidebar-dash {
+	height: 500px;
+	width: 30%;
+	background: rgb(194, 191, 191);
+	border-top-left-radius: 10px; 
+	border-bottom-left-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+.content-dash {
+	height: 500px;
+	width: 70%;
+	background: #fafafa;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+}
+
+/* sidebar head */
+.sidebar-head {
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-name {
+	/* float: left; */
+	color: black;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.logo-name p {
+	font-family: 'Source Sans Pro';
+}
+
+.logo-profile {
+	height: 40px;
+	/* float: left; */
+}
+
+/* ----- */
+
+.sidebar-list {
+	width: 100%;
+	height: 76%;
+	overflow: auto;
+}
+
+.off {
+	padding-top: 5px;
+	border-top: 1px solid black;
+}
+
+.icons-off {
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+}
+
+/* Scroll */
+.sidebar-list::-webkit-scrollbar {
+   width: 5px;
+}
+.sidebar-list::-webkit-scrollbar-track {
+   background: transparent;
+}
+.sidebar-list::-webkit-scrollbar-thumb {
+   background: lightblue;
+}
+/*.sidebar-list::-webkit-scrollbar-button:start:decrement,
+.sidebar-list::-webkit-scrollbar-button:end:increment {
+   background: black;
+}*/
+
+.view-chat::-webkit-scrollbar {
+	width: 5px;
+ }
+ .view-chat::-webkit-scrollbar-track {
+	background: transparent;
+ }
+ .view-chat::-webkit-scrollbar-thumb {
+	background: lightblue;
+ }
+
+.div-view-head {
+	width: 100%;
+	height: 80px;
+	background-color: thistle;
+}
+
+.view-head {
+	width: 40%;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .div-logo-dash { */
+	/* float: left; */
+/* } */
+
+.div-dash-name {
+	/* float: right; */
+	margin-left: 10px;
+}
+
+.logo-dash {
+	height: 35px;
+}
+
+.icons-edit {
+	position: relative;
+	top: 0;
+	color: black;
+}
+
+/* .icons-edit:hover {
+	color: red;
+} */
+
+.btn-input {
+	display: inline-block;
+	position: relative;
+    left: 4%;
+}
+
+.icons-send {
+	color: #3949ab;
+	cursor: pointer;
+	position: relative;
+}
+
+.icons-send:hover {
+	color: red;
+}
+
+.icons-off:hover {
+	color: red;
+}
+
+.view-chat {
+	width: 100%;
+	height: 74%;
+	overflow: auto;
+	border-top: 1px solid rgb(194, 191, 191);
+}
+
+.input {
+	text-align: center;
+	bottom: 15px;
+	/* background-color: gray; */
+	width: 100%;
+	height: 50px;
+}
+
+/* 
+.form-textarea {
+	height: 50%;
+} */
+
+.teks-input {
+	width: 80%;
+	display: inline-block;
+	margin-top: 10px;
+}	
+
+#input-chat {
+	resize: none;
+	overflow: hidden;
+	border-radius: 10px;
+	height: 30px;
+}
+
+/* Loading */
+.loading-dash {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
+.no {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+}
